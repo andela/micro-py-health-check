@@ -6,7 +6,7 @@ setup(
     version='0.1',
     description='A library to do rpc health checks on Python Services',
     author='Andela',
-    author_email='steven.n360@gmail.com',
+    author_email='devops@andela.com',
     url='https://github.com/andela/micro-py-health-check/tree/ft-create-micro-health-check-python-package',
     download_url='https://github.com/andela/micro-py-health-check/tree/ft-create-micro-health-check-python-package/archive/0.1.tar.gz',
     # I'll explain this in a second
