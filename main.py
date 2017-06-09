@@ -4,8 +4,8 @@ import threading
 
 import grpc
 
-import health_pb2
-import health_pb2_grpc
+from . import health_pb2
+from . import health_pb2_grpc
 
 
 class HealthServicer(health_pb2_grpc.HealthServicer):
@@ -24,7 +24,7 @@ class HealthServicer(health_pb2_grpc.HealthServicer):
             else:
                 return health_pb2.HealthCheckResponse(status=status)
 
-    def set(self, service, status):
+    def SetStatus(self, service, status):
         """Sets the status of a service.
     Args:
         service: string, the name of the service.
