@@ -1,8 +1,8 @@
 from distutils.core import setup # Describe module distribution to Distutils
 
 setup(
-    name='micro-py-health-check',
-    packages=['micro-py-health-check'], # this must be the same as the name above
+    name='pyHealthCheck',
+    packages=['pyHealthCheck'], # this must be the same as the name above
     version='0.1',
     description='A library to do rpc health checks on Python Services',
     author='Andela',
