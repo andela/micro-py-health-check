@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='pyHealthCheck',
     packages=['pyHealthCheck'],
-    version='0.1',
+    version='1.0.0',
     description='A library to do rpc health checks on Python Services',
     author='Andela',
     author_email='devops@andela.com',
