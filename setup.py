@@ -1,15 +1,14 @@
-from distutils.core import setup # Describe module distribution to Distutils
+from distutils.core import setup
 
 setup(
     name='pyHealthCheck',
-    packages=['pyHealthCheck'], # this must be the same as the name above
-    version='0.1',
+    packages=['pyHealthCheck'],
+    version='1.0.0',
     description='A library to do rpc health checks on Python Services',
     author='Andela',
     author_email='devops@andela.com',
-    url='https://github.com/andela/micro-py-health-check/tree/ft-create-micro-health-check-python-package',
-    download_url='https://github.com/andela/micro-py-health-check/tree/ft-create-micro-health-check-python-package/archive/0.1.tar.gz',
-    # I'll explain this in a second
-    keywords=['testing', 'health checks', 'services', 'gRPC'], # arbitrary keywords
+    url='https://github.com/andela/micro-py-health-check',
+    download_url='https://github.com/andela/micro-py-health-check/archive/1.0.0.tar.gz',
+    keywords=['testing', 'health checks', 'services', 'gRPC'],
     classifiers=[],
 )
