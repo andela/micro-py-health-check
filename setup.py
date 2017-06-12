@@ -8,7 +8,7 @@ setup(
     author='Andela',
     author_email='devops@andela.com',
     url='https://github.com/andela/micro-py-health-check',
-    download_url='https://github.com/andela/micro-py-health-check/archive/0.1.tar.gz',
+    download_url='https://github.com/andela/micro-py-health-check/archive/1.0.0.tar.gz',
     keywords=['testing', 'health checks', 'services', 'gRPC'],
     classifiers=[],
 )
